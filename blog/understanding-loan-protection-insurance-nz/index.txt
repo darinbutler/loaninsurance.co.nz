@@ -1,0 +1,170 @@
+1:"$Sreact.fragment"
+2:I[2971,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+f:I[68027,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","style"]
+0:{"P":null,"c":["","blog","understanding-loan-protection-insurance-nz",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","understanding-loan-protection-insurance-nz","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased scroll-smooth","children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta",null,{"name":"theme-color","content":"#0284c7"}],["$","meta",null,{"name":"description","content":"Protect your loan repayments with affordable loan protection insurance in New Zealand. Personal loans, car finance, mortgages, and more. Free quotes within 24 hours."}]]}],["$","body",null,{"className":"min-h-full flex flex-col bg-white font-sans antialiased","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-slate-900 text-slate-100 mt-16","children":[["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8","children":[["$","div",null,{"className":"lg:col-span-1","children":[["$","div",null,{"className":"flex items-center gap-3 ","children":[["$","svg",null,{"className":"w-8 h-8 flex-shrink-0","viewBox":"0 0 24 24","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":[["$","defs",null,{"children":["$","linearGradient",null,{"id":"shieldGradient","x1":"0%","y1":"0%","x2":"100%","y2":"100%","children":[["$","stop",null,{"offset":"0%","stopColor":"#0284c7"}],["$","stop",null,{"offset":"100%","stopColor":"#14b8a6"}]]}]}],["$","path",null,{"d":"M12 1L3 5V11C3 16.55 7.84 21.74 12 23C16.16 21.74 21 16.55 21 11V5L12 1Z","fill":"url(#shieldGradient)"}],["$","path",null,{"d":"M10 17L6 13L7.41 11.59L10 14.17L16.59 7.58L18 9L10 17Z","fill":"#ffffff"}]]}],["$","div",null,{"className":"flex flex-col gap-0.5","children":[["$","span",null,{"className":"font-bold text-lg lg:text-base text-white leading-none","children":"LOANINSURANCE"}],["$","span",null,{"className":"text-sm text-teal-300 font-semibold leading-none","children":".co.nz"}]]}],false]}],["$","div",null,{"className":"mt-4 space-y-3","children":[["$","div",null,{"children":[["$","p",null,{"className":"text-xs text-slate-400 uppercase tracking-wide mb-1","children":"Phone"}],["$","a",null,{"href":"tel:+64988595449","className":"text-white font-semibold hover:text-teal-300 transition-colors","children":"09 885 9549"}]]}],["$","div",null,{"children":[["$","p",null,{"className":"text-xs text-slate-400 uppercase tracking-wide mb-1","children":"Email"}],["$","a",null,{"href":"mailto:hello@cover4you.co.nz","className":"text-white font-semibold hover:text-teal-300 transition-colors break-all text-sm","children":"hello@cover4you.co.nz"}]]}]]}]]}],"$L5","$L6","$L7","$L8"]}]}],"$L9"]}]]}]]}]]}],{"children":["$La",{"children":["$Lb",{"children":["$Lc",{},null,false,null]},null,false,"$@d"]},null,false,"$@d"]},null,false,null],"$Le",false]],"m":"$undefined","G":["$f",["$L10"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"6TSWh3h_YzdlAJwtJTpOX"}
+11:I[22016,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+13:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+19:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+5:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Company"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","#about",{"children":["$","$L11",null,{"href":"#about","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"About"}]}],["$","li","#contact",{"children":["$","$L11",null,{"href":"#contact","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Contact"}]}],["$","li","/faqs",{"children":["$","$L11",null,{"href":"/faqs","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"FAQs"}]}]]}]]}]
+6:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Insurance Types"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/types/personal-loan",{"children":["$","$L11",null,{"href":"/types/personal-loan","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Personal Loan"}]}],["$","li","/types/car-finance",{"children":["$","$L11",null,{"href":"/types/car-finance","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Car Finance"}]}],["$","li","/types/home-loan",{"children":["$","$L11",null,{"href":"/types/home-loan","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Home Loan"}]}],["$","li","/types/gap-insurance",{"children":["$","$L11",null,{"href":"/types/gap-insurance","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"GAP Insurance"}]}],["$","li","/types/redundancy-cover",{"children":["$","$L11",null,{"href":"/types/redundancy-cover","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Redundancy Cover"}]}]]}]]}]
+7:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Resources"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/blog",{"children":["$","$L11",null,{"href":"/blog","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Blog"}]}],["$","li","/coverage-guide",{"children":["$","$L11",null,{"href":"/coverage-guide","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Coverage Guide"}]}],["$","li","/compare",{"children":["$","$L11",null,{"href":"/compare","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Compare Providers"}]}]]}]]}]
+8:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Legal"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/privacy",{"children":["$","$L11",null,{"href":"/privacy","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Privacy Policy"}]}],["$","li","/terms",{"children":["$","$L11",null,{"href":"/terms","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Terms & Conditions"}]}]]}]]}]
+9:["$","div",null,{"className":"border-t border-slate-800","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":["$","div",null,{"className":"flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4","children":[["$","p",null,{"className":"text-slate-400 text-sm","children":["© ",2026," LoanInsurance.co.nz. All rights reserved."]}],["$","p",null,{"className":"text-slate-400 text-sm","children":"Proudly ICNZ Registered Insurance Intermediary"}]]}]}]}]
+a:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/loaninsurance.co.nz/_next/static/chunks/0~ht77~ym..~v.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}]
+16:[]
+d:"$W16"
+e:["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$L18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L1a"}]}]}],null]}]
+10:["$","link","0",{"rel":"stylesheet","href":"/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:I[2594,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js","/loaninsurance.co.nz/_next/static/chunks/0~ht77~ym..~v.js"],"BlogPostClient"]
+1c:T10c6,# Understanding Loan Protection Insurance in New Zealand
+
+Loan protection insurance, also known as payment protection insurance (PPI) or loan repayment insurance, is a financial safety net designed to protect you and your loan obligations when unexpected life events occur. In New Zealand, this type of insurance has become increasingly important as more people seek comprehensive financial protection.
+
+## What Exactly is Loan Protection Insurance?
+
+Loan protection insurance is a type of insurance that covers your loan repayments if you're unable to work due to covered circumstances. Unlike life insurance, which protects your family after you pass away, loan protection insurance protects your current loan obligations while you're alive but facing financial hardship.
+
+When you take out a loan in New Zealand - whether it's a personal loan, car finance, home loan, or business loan - you commit to making regular repayments. If you suddenly lose your income due to job loss, illness, accident, or redundancy, maintaining those repayments becomes extremely difficult. Loan protection insurance steps in to cover your payments during these difficult times.
+
+## How Does Loan Protection Insurance Work?
+
+The mechanics of loan protection insurance are straightforward. You pay a monthly or annual premium to your insurer. If a covered event occurs - such as involuntary unemployment, accident, illness, or disability - you submit a claim to your insurer. After a waiting period (typically 30-90 days), the insurance begins paying your monthly loan repayment directly to your lender.
+
+For example, if you have a $50,000 personal loan with a $800 monthly repayment and you lose your job, loan insurance would cover that $800 payment each month for a specified period (usually up to 12 months). This allows you to focus on finding new employment or recovering from illness without the stress of missing loan payments.
+
+## Who Needs Loan Protection Insurance in New Zealand?
+
+Not everyone needs loan protection insurance, but certain groups of people benefit significantly from it. If you're the primary income earner for your household, if you have limited savings to cover loan payments during hardship, if you work in an industry with higher job insecurity, or if losing your income would create immediate financial crisis - loan protection insurance is worth serious consideration.
+
+Self-employed individuals and contractors may find loan protection insurance particularly valuable, as their income can be unpredictable. Parents and caregivers who depend on their income to maintain housing and support dependents are also good candidates for this protection.
+
+## Common Covered Events
+
+Most loan protection insurance policies in New Zealand cover several key situations. Involuntary unemployment is the most common - if you lose your job through no fault of your own, the insurance typically covers your loan payments. Accident and injury coverage protects you if an accident prevents you from working. Illness coverage applies when you're unable to work due to temporary or permanent illness. Some policies also include disability coverage and even accidental death benefits.
+
+## The Cost Factor
+
+One of the biggest questions New Zealand borrowers ask is how much loan protection insurance costs. Premiums vary based on loan amount, loan type, your age, your occupation, and your health status. On average, expect to pay between 0.5% to 2% of your monthly loan repayment as a premium. For a $50,000 personal loan, this might mean $15-40 per month - a relatively small price for significant financial protection.
+
+## Making the Right Choice
+
+Choosing loan protection insurance requires honestly assessing your financial situation. Do you have enough savings to cover three months of loan payments if you lose your income? Would losing your job create an immediate housing crisis? Are you reliant on your income to support dependents? If you answer yes to these questions, loan protection insurance is likely a wise investment in your financial security.
+
+At LoanInsurance.co.nz, we help New Zealand borrowers find the right coverage at competitive rates. Getting a free quote takes just minutes and gives you clarity on exactly what protection is available and affordable for your situation.1d:T1131,# GAP Insurance Explained: Protecting Your Car Finance
+
+When you finance a vehicle in New Zealand, GAP insurance is one of the most valuable protections you can add to your loan agreement. Yet many borrowers don't fully understand what it is or why they need it. Let's break down this crucial insurance type.
+
+## What is GAP Insurance?
+
+GAP stands for Guaranteed Asset Protection. It's a specialized type of loan insurance designed specifically for vehicle finance. Here's the fundamental problem it solves: vehicles depreciate rapidly, especially new cars. If your financed vehicle is written off in an accident or stolen within the first few years of ownership, you could end up in a negative equity situation.
+
+Imagine you purchase a new $40,000 car with $40,000 in car finance. After one year and 15,000 kilometers, your car is worth approximately $32,000 in the used car market. If you're involved in a serious accident and your car is declared a total loss, your comprehensive car insurance will pay out the current market value - around $32,000. However, you still owe $36,000 on your loan. That $4,000 gap is your loss. GAP insurance covers this gap.
+
+## Why New Car Buyers Need GAP Insurance
+
+New cars depreciate most aggressively in their first year and first few years of ownership. This makes new car finance particularly vulnerable to negative equity situations. If you're financing a new or near-new vehicle, GAP insurance provides essential protection during the riskiest period.
+
+The risk is real for New Zealand borrowers. A minor accident in Year 2 of your car finance could trigger a total loss scenario where your insurance payout doesn't cover your outstanding loan balance. Without GAP insurance, you'd be responsible for paying the difference.
+
+## How GAP Insurance Works
+
+When you have both comprehensive car insurance and GAP insurance, and your car is written off, here's what happens. Your comprehensive car insurance pays out the current market value of the vehicle. Then, if there's still an outstanding loan balance, GAP insurance covers the difference between what insurance paid and what you still owe on the loan.
+
+The process protects you from negative equity and the financial burden of losing money on a totaled vehicle while still owing thousands on the loan. This is particularly important if you need to immediately replace your vehicle - you don't want to start a new loan already underwater on the previous vehicle.
+
+## GAP Insurance Costs and Benefits
+
+GAP insurance is typically one of the most affordable insurance products available in New Zealand. You can purchase it as a one-time premium added to your loan or as monthly coverage. The cost is usually minimal compared to the protection provided - often just a few hundred dollars for comprehensive coverage on vehicle finance.
+
+The benefit is potentially tens of thousands of dollars. If you have a serious accident in Year 2 of your car finance and your car is written off, GAP insurance could save you from a $5,000-$10,000+ financial loss.
+
+## Who Should Absolutely Get GAP Insurance
+
+If you're financing a new vehicle, GAP insurance is highly recommended. If you have a longer loan term (5+ years), the risk period is extended, making coverage more valuable. If you're putting down a small deposit (less than 20%), your loan-to-value ratio is higher, increasing negative equity risk.
+
+Young drivers and first-time car buyers should particularly consider GAP insurance, as they may have higher accident risk. Anyone who wouldn't be able to absorb a $5,000-$10,000 loss should absolutely have this protection.
+
+## When You Might Skip It
+
+If you're purchasing a used vehicle with a shorter loan term and your loan amount is significantly less than the vehicle's value, your negative equity risk is lower. However, even in these cases, the affordable cost of GAP insurance might justify having it for peace of mind.
+
+## Getting GAP Insurance in New Zealand
+
+You can purchase GAP insurance from most lenders and finance companies, or independently from insurance brokers like LoanInsurance.co.nz. Shopping around ensures you get competitive pricing and comprehensive coverage. Don't automatically accept your lender's GAP insurance - compare options to ensure you have the best protection at the best price.
+
+Protect your vehicle investment with GAP insurance. Get a quote from LoanInsurance.co.nz today.1e:T1716,# How to Compare Loan Insurance Providers in New Zealand
+
+When shopping for loan insurance in New Zealand, comparing different providers is crucial to finding the right coverage at a competitive price. However, loan insurance policies vary significantly in coverage, exclusions, and costs. Here's how to compare providers effectively.
+
+## Understand What You're Comparing
+
+Before comparing providers, clarify what type of loan insurance you need. Are you protecting a personal loan, car finance, mortgage, or business loan? Different loan types have different insurance options. Personal loan insurance focuses on unemployment and illness. Mortgage insurance might include redundancy protection. Car finance insurance includes GAP coverage options.
+
+Next, identify the specific events you want covered. All policies cover involuntary unemployment and illness, but coverage details differ. Some policies cover injury, disability, and critical illness. Some include accidental death benefits. Understanding your specific needs helps you compare relevant policies rather than getting confused by feature comparisons.
+
+## Compare Coverage Details
+
+When comparing loan insurance providers, look closely at what's covered and what's excluded. The policy document should clearly outline:
+
+**Covered Events**: Does it cover unemployment, injury, illness, disability, redundancy, and/or death? Are there any exclusions based on age, health conditions, or employment type?
+
+**Waiting Period**: How long after a covered event occurs before benefits begin? This varies from 30 to 90 days. A shorter waiting period is generally better but often costs more.
+
+**Benefit Period**: How long does the insurance pay benefits? Most policies pay for 6-12 months. Some policies have maximum lifetime payouts.
+
+**Claim Limits**: Is there a maximum monthly payment the insurance will cover? Some policies cap benefits at your loan payment, others at a fixed amount.
+
+**Exclusions**: What specific situations are excluded? Pre-existing conditions? Self-inflicted injuries? Employment changes? Understanding exclusions prevents disappointment when making a claim.
+
+## Compare Premium Costs
+
+Loan insurance premiums vary significantly between providers, even for similar coverage. Get quotes from multiple insurers before making a decision. Most providers offer free online quotes within minutes.
+
+When comparing costs, look at the total cost over the loan term, not just the monthly payment. A cheaper monthly premium might have worse coverage or a longer waiting period that makes it less valuable.
+
+Some insurers offer different pricing for different demographic groups. Younger borrowers might get better rates. Some charge based on occupation, health status, or loan-to-value ratio. Getting quotes for your specific situation ensures accurate pricing comparison.
+
+## Evaluate Customer Service and Claims Process
+
+Insurance is only valuable if you can successfully claim when needed. Before choosing a provider, research their reputation for claims handling. Check online reviews and ratings. How long do claims take to process? What documentation do they require? Do they have local New Zealand support?
+
+Some providers have telephone support during business hours only. Others offer 24/7 support or online claim submission. If you prefer personal service, look for providers with local New Zealand offices and staff who understand local employment and insurance issues.
+
+## Consider Bundled vs Standalone Coverage
+
+Loan insurance can be bundled with your loan when you apply (offered by your lender) or purchased independently from insurance brokers. Bundled insurance is convenient but often more expensive and less flexible. Independent insurance brokers typically offer more competitive pricing and better comparison options.
+
+Bundled insurance often requires you to accept your lender's terms without shopping around. This can mean paying premium prices for less comprehensive coverage. Independent brokers help you compare multiple insurers and find better value.
+
+## Check Insurer Financial Stability
+
+Before purchasing insurance from any provider, verify they're licensed and financially stable. In New Zealand, check that insurers are registered with the Financial Markets Authority (FMA) and have appropriate financial ratings. You want to ensure the insurer will still be around and able to pay claims when you need them.
+
+## Ask About Special Features
+
+Some insurers offer valuable features beyond basic coverage. Some offer discount for multiple policies. Some provide free financial counseling or employment support services. Some allow policy adjustments or pauses if your circumstances change.
+
+These special features don't justify paying significantly more for coverage, but if prices are similar, they add value to your choice.
+
+## Making Your Final Comparison
+
+Create a comparison spreadsheet listing providers, coverage details, waiting periods, benefit periods, monthly costs, annual costs, and total loan-term costs. Include notes on customer service reputation and special features. This visual comparison helps you see which providers offer the best value for your specific situation.
+
+Don't automatically choose the cheapest option. The cheapest policy might have a longer waiting period, fewer covered events, or poor claims handling reputation. Compare value, not just price.
+
+## Getting Help With Your Comparison
+
+Comparing loan insurance is complex, and making a mistake can leave you underprotected. This is where brokers like LoanInsurance.co.nz help. We have relationships with multiple insurers, we understand policy details, and we help you navigate the comparison process.
+
+Get a free consultation and quote from LoanInsurance.co.nz. Our team will help you understand your options and recommend the best coverage for your specific situation, ensuring you make an informed decision with confidence.12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Understanding Loan Protection Insurance in New Zealand\",\"image\":\"https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&q=80\",\"datePublished\":\"2026-01-15\",\"author\":{\"@type\":\"Person\",\"name\":\"Sarah Mitchell\"},\"description\":\"A comprehensive guide to loan protection insurance in New Zealand - what it is, how it works, and why you might need it.\"}"}}],["$","$L1b",null,{"post":{"slug":"understanding-loan-protection-insurance-nz","title":"Understanding Loan Protection Insurance in New Zealand","excerpt":"A comprehensive guide to loan protection insurance in New Zealand - what it is, how it works, and why you might need it.","content":"$1c","author":"Sarah Mitchell","date":"2026-01-15","image":"https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&q=80","category":"Guides","readTime":8},"relatedPosts":[{"slug":"gap-insurance-explained-car-finance","title":"GAP Insurance Explained: Protecting Your Car Finance","excerpt":"Everything New Zealand car finance borrowers need to know about Guaranteed Asset Protection insurance and why it matters.","content":"$1d","author":"Aroha Ngata","date":"2026-02-04","image":"https://images.unsplash.com/photo-1626512402529-0b5ba5b0c0f5?w=800&q=80","category":"Guides","readTime":9},{"slug":"how-to-compare-loan-insurance-providers-nz","title":"How to Compare Loan Insurance Providers in New Zealand","excerpt":"A practical guide to comparing loan insurance providers and finding the best coverage at the best price for your situation.","content":"$1e","author":"Sarah Mitchell","date":"2026-03-22","image":"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80","category":"Guides","readTime":10}]}]]
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1f:I[27201,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+15:null
+1a:[["$","title","0",{"children":"Understanding Loan Protection Insurance in New Zealand | LoanInsurance.co.nz Blog"}],["$","meta","1",{"name":"description","content":"A comprehensive guide to loan protection insurance in New Zealand - what it is, how it works, and why you might need it."}],["$","meta","2",{"name":"author","content":"LoanInsurance.co.nz"}],["$","meta","3",{"name":"keywords","content":"Guides,loan insurance,New Zealand"}],["$","meta","4",{"property":"og:title","content":"Understanding Loan Protection Insurance in New Zealand"}],["$","meta","5",{"property":"og:description","content":"A comprehensive guide to loan protection insurance in New Zealand - what it is, how it works, and why you might need it."}],["$","meta","6",{"property":"og:url","content":"https://loaninsurance.co.nz/blog/understanding-loan-protection-insurance-nz/"}],["$","meta","7",{"property":"og:image","content":"https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&q=80"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-01-15"}],["$","meta","10",{"property":"article:author","content":"Sarah Mitchell"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Understanding Loan Protection Insurance in New Zealand"}],["$","meta","13",{"name":"twitter:description","content":"A comprehensive guide to loan protection insurance in New Zealand - what it is, how it works, and why you might need it."}],["$","meta","14",{"name":"twitter:image","content":"https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&q=80"}],["$","link","15",{"rel":"icon","href":"/favicon.ico"}],["$","$L1f","16",{}]]

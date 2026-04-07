@@ -54,7 +54,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           className="p-4 sm:p-6 space-y-4"
         >
           {/* Hidden Fields */}
-          <input type="hidden" name="_next" value="https://loaninsurance.co.nz/thank-you/" />
+          <input type="hidden" name="_next" value="https://darinbutler.github.io/loaninsurance.co.nz/thank-you/" />
           <input type="hidden" name="_subject" value="New Quote Request - LoanInsurance.co.nz" />
           <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
           <input type="hidden" name="_captcha" value="false" />
@@ -186,7 +186,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           className="p-6 sm:p-8"
         >
           {/* Hidden Fields */}
-          <input type="hidden" name="_next" value="https://loaninsurance.co.nz/thank-you/" />
+          <input type="hidden" name="_next" value="https://darinbutler.github.io/loaninsurance.co.nz/thank-you/" />
           <input type="hidden" name="_subject" value="New Quote Request - LoanInsurance.co.nz" />
           <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
           <input type="hidden" name="_captcha" value="false" />

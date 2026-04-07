@@ -1,0 +1,120 @@
+1:"$Sreact.fragment"
+2:I[2971,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+f:I[68027,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","style"]
+0:{"P":null,"c":["","blog","loan-insurance-self-employed-nz",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","loan-insurance-self-employed-nz","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased scroll-smooth","children":[["$","head",null,{"children":[["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta",null,{"name":"theme-color","content":"#0284c7"}],["$","meta",null,{"name":"description","content":"Protect your loan repayments with affordable loan protection insurance in New Zealand. Personal loans, car finance, mortgages, and more. Free quotes within 24 hours."}]]}],["$","body",null,{"className":"min-h-full flex flex-col bg-white font-sans antialiased","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-slate-900 text-slate-100 mt-16","children":[["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12","children":["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8","children":[["$","div",null,{"className":"lg:col-span-1","children":[["$","div",null,{"className":"flex items-center gap-3 ","children":[["$","svg",null,{"className":"w-8 h-8 flex-shrink-0","viewBox":"0 0 24 24","fill":"none","xmlns":"http://www.w3.org/2000/svg","children":[["$","defs",null,{"children":["$","linearGradient",null,{"id":"shieldGradient","x1":"0%","y1":"0%","x2":"100%","y2":"100%","children":[["$","stop",null,{"offset":"0%","stopColor":"#0284c7"}],["$","stop",null,{"offset":"100%","stopColor":"#14b8a6"}]]}]}],["$","path",null,{"d":"M12 1L3 5V11C3 16.55 7.84 21.74 12 23C16.16 21.74 21 16.55 21 11V5L12 1Z","fill":"url(#shieldGradient)"}],["$","path",null,{"d":"M10 17L6 13L7.41 11.59L10 14.17L16.59 7.58L18 9L10 17Z","fill":"#ffffff"}]]}],["$","div",null,{"className":"flex flex-col gap-0.5","children":[["$","span",null,{"className":"font-bold text-lg lg:text-base text-white leading-none","children":"LOANINSURANCE"}],["$","span",null,{"className":"text-sm text-teal-300 font-semibold leading-none","children":".co.nz"}]]}],false]}],["$","div",null,{"className":"mt-4 space-y-3","children":[["$","div",null,{"children":[["$","p",null,{"className":"text-xs text-slate-400 uppercase tracking-wide mb-1","children":"Phone"}],["$","a",null,{"href":"tel:+64988595449","className":"text-white font-semibold hover:text-teal-300 transition-colors","children":"09 885 9549"}]]}],["$","div",null,{"children":[["$","p",null,{"className":"text-xs text-slate-400 uppercase tracking-wide mb-1","children":"Email"}],["$","a",null,{"href":"mailto:hello@cover4you.co.nz","className":"text-white font-semibold hover:text-teal-300 transition-colors break-all text-sm","children":"hello@cover4you.co.nz"}]]}]]}]]}],"$L5","$L6","$L7","$L8"]}]}],"$L9"]}]]}]]}]]}],{"children":["$La",{"children":["$Lb",{"children":["$Lc",{},null,false,null]},null,false,"$@d"]},null,false,"$@d"]},null,false,null],"$Le",false]],"m":"$undefined","G":["$f",["$L10"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"6TSWh3h_YzdlAJwtJTpOX"}
+11:I[22016,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+13:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+19:I[97367,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+5:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Company"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","#about",{"children":["$","$L11",null,{"href":"#about","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"About"}]}],["$","li","#contact",{"children":["$","$L11",null,{"href":"#contact","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Contact"}]}],["$","li","/faqs",{"children":["$","$L11",null,{"href":"/faqs","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"FAQs"}]}]]}]]}]
+6:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Insurance Types"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/types/personal-loan",{"children":["$","$L11",null,{"href":"/types/personal-loan","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Personal Loan"}]}],["$","li","/types/car-finance",{"children":["$","$L11",null,{"href":"/types/car-finance","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Car Finance"}]}],["$","li","/types/home-loan",{"children":["$","$L11",null,{"href":"/types/home-loan","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Home Loan"}]}],["$","li","/types/gap-insurance",{"children":["$","$L11",null,{"href":"/types/gap-insurance","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"GAP Insurance"}]}],["$","li","/types/redundancy-cover",{"children":["$","$L11",null,{"href":"/types/redundancy-cover","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Redundancy Cover"}]}]]}]]}]
+7:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Resources"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/blog",{"children":["$","$L11",null,{"href":"/blog","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Blog"}]}],["$","li","/coverage-guide",{"children":["$","$L11",null,{"href":"/coverage-guide","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Coverage Guide"}]}],["$","li","/compare",{"children":["$","$L11",null,{"href":"/compare","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Compare Providers"}]}]]}]]}]
+8:["$","div",null,{"children":[["$","h3",null,{"className":"text-white font-bold mb-4","children":"Legal"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/privacy",{"children":["$","$L11",null,{"href":"/privacy","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Privacy Policy"}]}],["$","li","/terms",{"children":["$","$L11",null,{"href":"/terms","className":"text-slate-400 hover:text-teal-300 transition-colors text-sm","children":"Terms & Conditions"}]}]]}]]}]
+9:["$","div",null,{"className":"border-t border-slate-800","children":["$","div",null,{"className":"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6","children":["$","div",null,{"className":"flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4","children":[["$","p",null,{"className":"text-slate-400 text-sm","children":["© ",2026," LoanInsurance.co.nz. All rights reserved."]}],["$","p",null,{"className":"text-slate-400 text-sm","children":"Proudly ICNZ Registered Insurance Intermediary"}]]}]}]}]
+a:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+b:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":["$L12",[["$","script","script-0",{"src":"/loaninsurance.co.nz/_next/static/chunks/0~ht77~ym..~v.js","async":true,"nonce":"$undefined"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}]
+16:[]
+d:"$W16"
+e:["$","$1","h",{"children":[null,["$","$L17",null,{"children":"$L18"}],["$","div",null,{"hidden":true,"children":["$","$L19",null,{"children":["$","$14",null,{"name":"Next.Metadata","children":"$L1a"}]}]}],null]}]
+10:["$","link","0",{"rel":"stylesheet","href":"/loaninsurance.co.nz/_next/static/chunks/0bxeu69d93-jw.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1b:I[2594,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js","/loaninsurance.co.nz/_next/static/chunks/0~ht77~ym..~v.js"],"BlogPostClient"]
+1c:T1b0f,# Loan Insurance for Self-Employed New Zealanders
+
+Being self-employed in New Zealand offers independence and flexibility, but it comes with financial uncertainty. Many self-employed individuals mistakenly believe they can't access loan protection insurance due to variable income. However, loan insurance options do exist for self-employed borrowers - you just need to know where to look.
+
+## The Unique Challenge: Income Variability
+
+Self-employed individuals face a fundamental challenge with loan insurance: variable income. Insurance companies are accustomed to traditional employment with stable, predictable income. A self-employed person earning $80,000 one year and $60,000 the next creates assessment difficulties for insurers.
+
+Additionally, if you lose clients or have a business downturn, is this an "involuntary" job loss? Can your business insurance protect your loan payments? These definitional questions make self-employed loan insurance more complex than traditional employment insurance.
+
+## Traditional Insurance Limitations
+
+Standard loan protection insurance from many mainstream insurers explicitly excludes self-employed individuals or provides very limited coverage. Unemployment coverage is inapplicable when you're self-employed - there's no employer to make you redundant.
+
+This creates a protection gap: self-employed individuals often have significant loan obligations but can't access the unemployment and redundancy protection that traditional employees take for granted.
+
+## What Coverage IS Available for Self-Employed
+
+The good news is that comprehensive loan protection insurance does exist for self-employed New Zealanders, though you need to look beyond mainstream lenders. Coverage typically focuses on:
+
+**Accident and Injury Coverage**: If you suffer an accident that prevents you from working, the insurance covers your loan payments during recovery. This is available to self-employed individuals just as to traditional employees.
+
+**Illness Coverage**: If you become too ill to work, loan insurance covers your payments. Self-employed individuals can access this coverage, though pre-existing conditions may be excluded.
+
+**Disability Coverage**: If you become permanently disabled and unable to work, some policies include disability benefits. Self-employed individuals should look for this specific coverage.
+
+**Mortgage Protection**: Mortgage insurance is available to self-employed individuals, sometimes with special underwriting. Lenders recognize that protecting mortgage payments protects their security.
+
+## Special Underwriting for Self-Employed
+
+Self-employed loan insurance requires different underwriting than traditional employee insurance. Insurers typically request:
+- Last 2-3 years of tax returns showing income
+- Last 2-3 years of business accounts or financial statements
+- Evidence of business stability and sustainability
+- Current business turnover and profitability
+- Explanation of any income fluctuations
+
+Based on this information, insurers assess your "normal" income level. The insurance then covers loan payments based on this assessed income level, not your variable actual income.
+
+## Accessing Self-Employed Loan Insurance
+
+Not all insurance companies offer comprehensive self-employed coverage. You need to work with brokers who specialize in self-employed insurance or who have relationships with insurers offering this coverage.
+
+Mainstream banks and finance companies typically offer limited self-employed coverage. Specialist insurance brokers have access to insurers who understand self-employed lending and can structure policies accordingly.
+
+LoanInsurance.co.nz works with insurers offering comprehensive self-employed loan insurance. We understand the unique challenges and can help you access protection despite your self-employed status.
+
+## Cost Considerations for Self-Employed
+
+Self-employed loan insurance typically costs more than traditional employee coverage due to the higher underwriting complexity and risk. You might pay 1-3% of your monthly loan payment compared to 0.5%-2% for traditional employees.
+
+However, this additional cost is justified by the protection value. For self-employed individuals with volatile income, loan insurance provides essential security that keeps your loans current even when business revenue dips temporarily.
+
+## Case Study: The Self-Employed Contractor
+
+Mark is a 35-year-old electrical contractor in Auckland. He owns his contracting business and earns approximately $95,000 annually, though income varies seasonally. He has:
+- Mortgage: $280,000 with $1,600 monthly payment
+- Business equipment finance: $35,000 with $420 monthly payment
+- Personal loan: $15,000 with $280 monthly payment
+- Total monthly loan obligations: $2,300
+
+Mark's main risk is business downturn or a serious injury preventing him from contracting work. If he suffers a serious injury, he can't work and his business revenue stops.
+
+Mark accessed self-employed loan insurance covering accident and injury. When he suffered a serious back injury requiring three months of recovery, his loan insurance covered his $2,300 monthly obligations while he recovered. This allowed him to focus on recovery without financial crisis threatening his home and business assets.
+
+## Industry-Specific Challenges
+
+Some self-employed industries face higher insurance costs or exclusions:
+- Seasonal workers (builders, landscapers) may have limited coverage during off-season
+- High-risk occupations (window washers, roofers) face higher costs
+- Creative industries with variable income face specific challenges
+- Tradespeople may need industry-specific underwriting
+
+Understanding your industry's specific insurance landscape helps you find appropriate coverage. Specialist brokers understand these industry nuances and can navigate them.
+
+## Building Your Self-Employed Insurance Strategy
+
+Self-employed loan insurance is part of a broader insurance strategy. You should also consider:
+- Income protection insurance covering broader living expenses beyond just loans
+- Permanent disability insurance protecting your business income
+- Critical illness insurance covering major health events
+- Professional indemnity insurance if applicable to your industry
+- Business interruption insurance protecting revenue during forced closure
+
+Combining these protections creates comprehensive security for your self-employed business and personal finances.
+
+## Taking Action
+
+If you're self-employed and have significant loan obligations, don't assume you can't access protection. Specialist brokers like LoanInsurance.co.nz understand self-employed lending and insurance.
+
+Get a free quote today. We'll assess your specific self-employed situation and help you access loan protection insurance appropriate for your income variability and business risks. Don't leave your self-employed income unprotected - secure your loans and your livelihood.12:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Loan Insurance for Self-Employed New Zealanders\",\"image\":\"https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80\",\"datePublished\":\"2026-04-05\",\"author\":{\"@type\":\"Person\",\"name\":\"Aroha Ngata\"},\"description\":\"How self-employed individuals can access loan protection insurance despite income variability and unique challenges.\"}"}}],["$","$L1b",null,{"post":{"slug":"loan-insurance-self-employed-nz","title":"Loan Insurance for Self-Employed New Zealanders","excerpt":"How self-employed individuals can access loan protection insurance despite income variability and unique challenges.","content":"$1c","author":"Aroha Ngata","date":"2026-04-05","image":"https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80","category":"Specialist","readTime":11},"relatedPosts":[]}]]
+18:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[27201,["/loaninsurance.co.nz/_next/static/chunks/0npcm~uy~q-9c.js","/loaninsurance.co.nz/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+15:null
+1a:[["$","title","0",{"children":"Loan Insurance for Self-Employed New Zealanders | LoanInsurance.co.nz Blog"}],["$","meta","1",{"name":"description","content":"How self-employed individuals can access loan protection insurance despite income variability and unique challenges."}],["$","meta","2",{"name":"author","content":"LoanInsurance.co.nz"}],["$","meta","3",{"name":"keywords","content":"Specialist,loan insurance,New Zealand"}],["$","meta","4",{"property":"og:title","content":"Loan Insurance for Self-Employed New Zealanders"}],["$","meta","5",{"property":"og:description","content":"How self-employed individuals can access loan protection insurance despite income variability and unique challenges."}],["$","meta","6",{"property":"og:url","content":"https://loaninsurance.co.nz/blog/loan-insurance-self-employed-nz/"}],["$","meta","7",{"property":"og:image","content":"https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2026-04-05"}],["$","meta","10",{"property":"article:author","content":"Aroha Ngata"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Loan Insurance for Self-Employed New Zealanders"}],["$","meta","13",{"name":"twitter:description","content":"How self-employed individuals can access loan protection insurance despite income variability and unique challenges."}],["$","meta","14",{"name":"twitter:image","content":"https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"}],["$","link","15",{"rel":"icon","href":"/favicon.ico"}],["$","$L1d","16",{}]]
