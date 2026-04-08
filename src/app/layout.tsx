@@ -53,6 +53,11 @@ export default function RootLayout({
           name="description"
           content="Protect your loan repayments with affordable loan protection insurance in New Zealand. Personal loans, car finance, mortgages, and more. Free quotes within 24 hours."
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6745344450942342"
+          crossOrigin="anonymous"
+        />
       </head>
       <body className="min-h-full flex flex-col bg-white font-sans antialiased">
         <Header />
