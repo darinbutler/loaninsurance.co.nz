@@ -31,10 +31,10 @@ export default function Header() {
     <>
       {/* Sticky Header */}
       <header className="sticky top-0 z-40 w-full bg-white border-b border-slate-200 shadow-sm">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+        <nav className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16 sm:h-16">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0 hover:opacity-80 transition-opacity">
+            <Link href="/" className="flex-shrink-0 hover:opacity-80 transition-opacity py-2 -ml-1 pl-1 pr-3 min-h-[44px] flex items-center">
               <Logo />
             </Link>
 
@@ -95,7 +95,7 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 hover:bg-slate-100 rounded-lg transition-colors"
+              className="lg:hidden p-2.5 -mr-1 hover:bg-slate-100 rounded-lg transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               aria-label="Toggle menu"
             >
               {mobileMenuOpen ? (
@@ -132,12 +132,12 @@ export default function Header() {
 
           {/* Mobile Menu */}
           {mobileMenuOpen && (
-            <div className="lg:hidden pb-4 border-t border-slate-200">
-              <div className="pt-4 space-y-1">
+            <div className="lg:hidden pb-5 border-t border-slate-200">
+              <div className="pt-4 space-y-0.5">
                 {/* Mobile Insurance Types */}
                 <button
                   onClick={() => setTypesDropdownOpen(!typesDropdownOpen)}
-                  className="w-full text-left px-4 py-2 text-slate-700 font-medium hover:bg-slate-100 rounded-lg transition-colors flex items-center justify-between"
+                  className="w-full text-left px-4 py-3 text-slate-700 font-medium hover:bg-slate-100 rounded-lg transition-colors flex items-center justify-between"
                 >
                   Insurance Types
                   <svg
@@ -161,7 +161,7 @@ export default function Header() {
                       <Link
                         key={type.href}
                         href={type.href}
-                        className="block px-4 py-2 text-slate-600 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors text-sm"
+                        className="block px-4 py-2.5 text-slate-600 hover:bg-teal-50 hover:text-teal-600 rounded-lg transition-colors text-sm"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {type.label}
@@ -175,7 +175,7 @@ export default function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="block px-4 py-2 text-slate-700 font-medium hover:bg-slate-100 rounded-lg transition-colors"
+                    className="block px-4 py-3 text-slate-700 font-medium hover:bg-slate-100 rounded-lg transition-colors"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {link.label}
@@ -183,8 +183,8 @@ export default function Header() {
                 ))}
 
                 {/* Mobile CTA */}
-                <div className="pt-4">
-                  <Link href="/#quote-form" className="block w-full text-center bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>
+                <div className="pt-4 px-2">
+                  <Link href="/#quote-form" className="block w-full text-center bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-bold px-6 py-3.5 rounded-xl transition-all duration-200 shadow-md text-base" onClick={() => setMobileMenuOpen(false)}>
                     Get a Free Quote
                   </Link>
                 </div>
