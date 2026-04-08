@@ -253,7 +253,7 @@ export function BlogPostClient({ post, relatedPosts }: BlogPostClientProps) {
             insurance can be for your situation.
           </p>
           <Link
-            href="/contact"
+            href="/#quote-form"
             className="inline-block bg-white hover:bg-slate-50 text-sky-600 font-bold py-3 px-8 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             Get Your Free Quote

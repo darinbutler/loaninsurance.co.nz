@@ -1,6 +1,17 @@
 'use client';
 
 import { useState } from 'react';
+import {
+  User,
+  Mail,
+  Phone,
+  FileText,
+  DollarSign,
+  Lock,
+  ShieldCheck,
+  Clock,
+  MessageSquare,
+} from 'lucide-react';
 
 interface QuoteFormProps {
   mode?: 'compact' | 'full';
@@ -23,11 +34,10 @@ const loanAmounts = [
   { value: 'over-500k', label: 'Over $500,000' },
 ];
 
-const trustBadges = [
-  { icon: '✓', label: 'ICNZ Registered' },
-  { icon: '✓', label: 'No Broker Fees' },
-  { icon: '✓', label: '256-bit SSL Secure' },
-  { icon: '✓', label: '24hr Response' },
+const securityBadges = [
+  { icon: Lock, label: '256-bit SSL Encrypted' },
+  { icon: ShieldCheck, label: 'No Spam Guarantee' },
+  { icon: Clock, label: 'Response Within 24hrs' },
 ];
 
 export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
@@ -39,11 +49,13 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
 
   if (mode === 'compact') {
     return (
-      <div className="sticky bottom-0 lg:relative bg-white border-t lg:border-t-0 lg:border lg:rounded-lg lg:shadow-lg">
-        {/* Gradient Header - Compact Mode */}
-        <div className="bg-gradient-to-r from-sky-600 to-teal-500 px-4 sm:px-6 py-4">
-          <h3 className="text-white font-bold text-lg">Get Your Free Quote</h3>
-          <p className="text-sky-100 text-sm mt-1">In just 2 minutes</p>
+      <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
+        {/* Gradient Header */}
+        <div className="bg-gradient-to-r from-sky-600 to-teal-500 px-6 py-5">
+          <h3 className="text-white font-bold text-xl">Get Your Free Quote</h3>
+          <p className="text-sky-100 text-sm mt-1">
+            Compare top NZ loan insurers in 2 minutes
+          </p>
         </div>
 
         {/* Form Content */}
@@ -51,7 +63,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           action="https://formsubmit.co/hello@cover4you.co.nz"
           method="POST"
           onSubmit={handleSubmit}
-          className="p-4 sm:p-6 space-y-4"
+          className="p-6 space-y-4"
         >
           {/* Hidden Fields */}
           <input type="hidden" name="_next" value="https://darinbutler.github.io/loaninsurance.co.nz/thank-you/" />
@@ -62,107 +74,127 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
 
           {/* Full Name */}
           <div>
-            <label htmlFor="fullName" className="block text-sm font-medium text-slate-700 mb-2">
+            <label htmlFor="fullName-compact" className="block text-sm font-semibold text-slate-700 mb-1.5">
               Full Name
             </label>
-            <input
-              id="fullName"
-              type="text"
-              name="fullName"
-              required
-              className="w-full px-4 py-2.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-              placeholder="John Doe"
-            />
+            <div className="relative">
+              <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <input
+                id="fullName-compact"
+                type="text"
+                name="fullName"
+                required
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm"
+                placeholder="John Doe"
+              />
+            </div>
           </div>
 
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">
+            <label htmlFor="email-compact" className="block text-sm font-semibold text-slate-700 mb-1.5">
               Email
             </label>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              required
-              className="w-full px-4 py-2.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-              placeholder="john@example.com"
-            />
+            <div className="relative">
+              <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <input
+                id="email-compact"
+                type="email"
+                name="email"
+                required
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm"
+                placeholder="john@example.com"
+              />
+            </div>
           </div>
 
           {/* Phone */}
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-2">
+            <label htmlFor="phone-compact" className="block text-sm font-semibold text-slate-700 mb-1.5">
               Phone
             </label>
-            <input
-              id="phone"
-              type="tel"
-              name="phone"
-              required
-              className="w-full px-4 py-2.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-              placeholder="09 XXX XXXX"
-            />
+            <div className="relative">
+              <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <input
+                id="phone-compact"
+                type="tel"
+                name="phone"
+                required
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm"
+                placeholder="09 XXX XXXX"
+              />
+            </div>
           </div>
 
           {/* Loan Type */}
           <div>
-            <label htmlFor="loanType" className="block text-sm font-medium text-slate-700 mb-2">
+            <label htmlFor="loanType-compact" className="block text-sm font-semibold text-slate-700 mb-1.5">
               Loan Type
             </label>
-            <select
-              id="loanType"
-              name="loanType"
-              required
-              className="w-full px-4 py-2.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-            >
-              <option value="">Select loan type...</option>
-              {loanTypes.map((type) => (
-                <option key={type.value} value={type.value}>
-                  {type.label}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <FileText className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <select
+                id="loanType-compact"
+                name="loanType"
+                required
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm appearance-none bg-white"
+              >
+                <option value="">Select loan type...</option>
+                {loanTypes.map((type) => (
+                  <option key={type.value} value={type.value}>
+                    {type.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           {/* Loan Amount */}
           <div>
-            <label htmlFor="loanAmount" className="block text-sm font-medium text-slate-700 mb-2">
+            <label htmlFor="loanAmount-compact" className="block text-sm font-semibold text-slate-700 mb-1.5">
               Approximate Loan Amount
             </label>
-            <select
-              id="loanAmount"
-              name="loanAmount"
-              required
-              className="w-full px-4 py-2.5 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-            >
-              <option value="">Select amount range...</option>
-              {loanAmounts.map((amount) => (
-                <option key={amount.value} value={amount.value}>
-                  {amount.label}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <DollarSign className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+              <select
+                id="loanAmount-compact"
+                name="loanAmount"
+                required
+                className="w-full pl-10 pr-4 py-2.5 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-sm appearance-none bg-white"
+              >
+                <option value="">Select amount range...</option>
+                {loanAmounts.map((amount) => (
+                  <option key={amount.value} value={amount.value}>
+                    {amount.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
 
           {/* Submit Button */}
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 disabled:opacity-50 text-white font-bold py-2.5 rounded-lg transition-all duration-200 flex items-center justify-center gap-2"
+            className="w-full bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 disabled:opacity-50 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg shadow-teal-500/25 hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2"
           >
             {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}
           </button>
         </form>
 
-        {/* Trust Badges */}
-        <div className="px-4 sm:px-6 py-3 bg-slate-50 border-t border-slate-200 grid grid-cols-2 gap-2">
-          {trustBadges.map((badge) => (
-            <div key={badge.label} className="flex items-center gap-2 text-xs">
-              <span className="text-teal-600 font-bold">{badge.icon}</span>
-              <span className="text-slate-700 font-medium">{badge.label}</span>
-            </div>
-          ))}
+        {/* Security Badges */}
+        <div className="px-6 py-4 bg-slate-50 border-t border-slate-100">
+          <div className="flex flex-wrap justify-center gap-x-4 gap-y-2">
+            {securityBadges.map((badge) => {
+              const BadgeIcon = badge.icon;
+              return (
+                <div key={badge.label} className="flex items-center gap-1.5">
+                  <BadgeIcon className="w-3.5 h-3.5 text-teal-600" />
+                  <span className="text-xs font-medium text-slate-600">{badge.label}</span>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     );
@@ -170,152 +202,178 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
 
   // Full Mode
   return (
-    <div className="w-full max-w-4xl mx-auto">
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-sky-600 to-teal-500 px-6 sm:px-8 py-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2">Get Your Free Quote</h2>
-          <p className="text-sky-100 text-lg">Fill out the form below and we'll respond within 24 hours</p>
-        </div>
-
-        {/* Form */}
-        <form
-          action="https://formsubmit.co/hello@cover4you.co.nz"
-          method="POST"
-          onSubmit={handleSubmit}
-          className="p-6 sm:p-8"
-        >
-          {/* Hidden Fields */}
-          <input type="hidden" name="_next" value="https://darinbutler.github.io/loaninsurance.co.nz/thank-you/" />
-          <input type="hidden" name="_subject" value="New Quote Request - LoanInsurance.co.nz" />
-          <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_honey" style={{ display: 'none' }} />
-
-          <div className="space-y-6">
-            {/* Row 1: Full Name & Email */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="fullName" className="block text-sm font-semibold text-slate-900 mb-2">
-                  Full Name
-                </label>
-                <input
-                  id="fullName"
-                  type="text"
-                  name="fullName"
-                  required
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
-                  placeholder="John Doe"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-slate-900 mb-2">
-                  Email Address
-                </label>
-                <input
-                  id="email"
-                  type="email"
-                  name="email"
-                  required
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
-                  placeholder="john@example.com"
-                />
-              </div>
-            </div>
-
-            {/* Row 2: Phone */}
-            <div>
-              <label htmlFor="phone" className="block text-sm font-semibold text-slate-900 mb-2">
-                Phone Number
-              </label>
-              <input
-                id="phone"
-                type="tel"
-                name="phone"
-                required
-                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
-                placeholder="09 XXX XXXX"
-              />
-            </div>
-
-            {/* Row 3: Loan Type & Loan Amount */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="loanType" className="block text-sm font-semibold text-slate-900 mb-2">
-                  Type of Loan
-                </label>
-                <select
-                  id="loanType"
-                  name="loanType"
-                  required
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
-                >
-                  <option value="">Select loan type...</option>
-                  {loanTypes.map((type) => (
-                    <option key={type.value} value={type.value}>
-                      {type.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label htmlFor="loanAmount" className="block text-sm font-semibold text-slate-900 mb-2">
-                  Approximate Loan Amount
-                </label>
-                <select
-                  id="loanAmount"
-                  name="loanAmount"
-                  required
-                  className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
-                >
-                  <option value="">Select amount range...</option>
-                  {loanAmounts.map((amount) => (
-                    <option key={amount.value} value={amount.value}>
-                      {amount.label}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-
-            {/* Row 4: Additional Details */}
-            <div>
-              <label htmlFor="details" className="block text-sm font-semibold text-slate-900 mb-2">
-                Additional Details (Optional)
-              </label>
-              <textarea
-                id="details"
-                name="additionalDetails"
-                rows={4}
-                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base resize-none"
-                placeholder="Tell us anything else we should know about your situation..."
-              />
-            </div>
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              disabled={isSubmitting}
-              className="w-full bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 disabled:opacity-50 text-white font-bold py-3 rounded-lg transition-all duration-200 text-lg flex items-center justify-center gap-2"
-            >
-              {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}
-            </button>
+    <section id="quote-form" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 scroll-mt-20">
+      <div className="w-full max-w-4xl mx-auto">
+        <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
+          {/* Gradient Header */}
+          <div className="bg-gradient-to-r from-sky-600 to-teal-500 px-6 sm:px-10 py-8 sm:py-10">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2">
+              Get Your Free Quote
+            </h2>
+            <p className="text-sky-100 text-lg">
+              Fill out the form below and a licensed broker will respond within 24 hours
+            </p>
           </div>
-        </form>
 
-        {/* Trust Badges Section */}
-        <div className="bg-slate-50 px-6 sm:px-8 py-8 border-t border-slate-200">
-          <p className="text-sm font-semibold text-slate-600 uppercase tracking-wide mb-4">Why choose us</p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {trustBadges.map((badge) => (
-              <div key={badge.label} className="flex flex-col items-center text-center">
-                <div className="text-2xl text-teal-600 font-bold mb-2">{badge.icon}</div>
-                <p className="text-sm font-medium text-slate-700">{badge.label}</p>
+          {/* Form */}
+          <form
+            action="https://formsubmit.co/hello@cover4you.co.nz"
+            method="POST"
+            onSubmit={handleSubmit}
+            className="p-6 sm:p-10"
+          >
+            {/* Hidden Fields */}
+            <input type="hidden" name="_next" value="https://darinbutler.github.io/loaninsurance.co.nz/thank-you/" />
+            <input type="hidden" name="_subject" value="New Quote Request - LoanInsurance.co.nz" />
+            <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_honey" style={{ display: 'none' }} />
+
+            <div className="space-y-6">
+              {/* Row 1: Full Name & Email */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="fullName-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                    Full Name
+                  </label>
+                  <div className="relative">
+                    <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                    <input
+                      id="fullName-full"
+                      type="text"
+                      name="fullName"
+                      required
+                      className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+                      placeholder="John Doe"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="email-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                    Email Address
+                  </label>
+                  <div className="relative">
+                    <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                    <input
+                      id="email-full"
+                      type="email"
+                      name="email"
+                      required
+                      className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+                      placeholder="john@example.com"
+                    />
+                  </div>
+                </div>
               </div>
-            ))}
+
+              {/* Row 2: Phone */}
+              <div>
+                <label htmlFor="phone-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                  Phone Number
+                </label>
+                <div className="relative">
+                  <Phone className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                  <input
+                    id="phone-full"
+                    type="tel"
+                    name="phone"
+                    required
+                    className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+                    placeholder="09 XXX XXXX"
+                  />
+                </div>
+              </div>
+
+              {/* Row 3: Loan Type & Loan Amount */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <label htmlFor="loanType-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                    Type of Loan
+                  </label>
+                  <div className="relative">
+                    <FileText className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                    <select
+                      id="loanType-full"
+                      name="loanType"
+                      required
+                      className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base appearance-none bg-white"
+                    >
+                      <option value="">Select loan type...</option>
+                      {loanTypes.map((type) => (
+                        <option key={type.value} value={type.value}>
+                          {type.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="loanAmount-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                    Approximate Loan Amount
+                  </label>
+                  <div className="relative">
+                    <DollarSign className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
+                    <select
+                      id="loanAmount-full"
+                      name="loanAmount"
+                      required
+                      className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base appearance-none bg-white"
+                    >
+                      <option value="">Select amount range...</option>
+                      {loanAmounts.map((amount) => (
+                        <option key={amount.value} value={amount.value}>
+                          {amount.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              {/* Row 4: Additional Details */}
+              <div>
+                <label htmlFor="details-full" className="block text-sm font-semibold text-slate-900 mb-2">
+                  Additional Details (Optional)
+                </label>
+                <div className="relative">
+                  <MessageSquare className="absolute left-3.5 top-3.5 w-5 h-5 text-slate-400" />
+                  <textarea
+                    id="details-full"
+                    name="additionalDetails"
+                    rows={4}
+                    className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base resize-none"
+                    placeholder="Tell us anything else we should know about your situation..."
+                  />
+                </div>
+              </div>
+
+              {/* Submit Button */}
+              <button
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 disabled:opacity-50 text-white font-bold py-4 rounded-xl transition-all duration-300 text-lg flex items-center justify-center gap-2 shadow-lg shadow-teal-500/25 hover:shadow-xl hover:-translate-y-0.5"
+              >
+                {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}
+              </button>
+            </div>
+          </form>
+
+          {/* Security Badges */}
+          <div className="bg-slate-50 px-6 sm:px-10 py-6 border-t border-slate-200">
+            <div className="flex flex-wrap justify-center gap-x-8 gap-y-3">
+              {securityBadges.map((badge) => {
+                const BadgeIcon = badge.icon;
+                return (
+                  <div key={badge.label} className="flex items-center gap-2">
+                    <BadgeIcon className="w-4 h-4 text-teal-600" />
+                    <span className="text-sm font-medium text-slate-600">{badge.label}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

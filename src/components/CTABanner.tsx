@@ -13,7 +13,7 @@ export default function CTABanner({
   title = 'Ready to Protect Your Loan Repayments?',
   description = 'Get personalised loan protection insurance quotes from NZ\u0027s top providers.',
   buttonText = 'Get a Free Quote',
-  buttonLink = '/contact',
+  buttonLink = '/#quote-form',
   buttonHref,
   variant = 'default',
 }: CTABannerProps) {

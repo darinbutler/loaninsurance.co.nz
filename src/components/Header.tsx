@@ -10,14 +10,17 @@ const insuranceTypes = [
   { label: 'Home Loan', href: '/types/home-loan' },
   { label: 'GAP Insurance', href: '/types/gap-insurance' },
   { label: 'Redundancy Cover', href: '/types/redundancy-cover' },
+  { label: 'Payment Protection', href: '/insurance/payment-protection-insurance' },
+  { label: 'Mortgage Protection', href: '/insurance/mortgage-protection-insurance' },
+  { label: 'Income Protection', href: '/insurance/income-protection-insurance' },
 ];
 
 const navLinks = [
-  { label: 'Coverage', href: '#coverage' },
-  { label: 'Compare', href: '#compare' },
+  { label: 'Coverage', href: '/coverage' },
+  { label: 'Compare', href: '/compare' },
   { label: 'Blog', href: '/blog' },
-  { label: 'About', href: '#about' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'About', href: '/about' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 export default function Header() {
@@ -84,9 +87,9 @@ export default function Header() {
 
             {/* CTA Button (Desktop) */}
             <div className="hidden lg:block">
-              <button className="bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
+              <Link href="/#quote-form" className="bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
                 Get a Free Quote
-              </button>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -181,9 +184,9 @@ export default function Header() {
 
                 {/* Mobile CTA */}
                 <div className="pt-4">
-                  <button className="w-full bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200">
+                  <Link href="/#quote-form" className="block w-full text-center bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200" onClick={() => setMobileMenuOpen(false)}>
                     Get a Free Quote
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

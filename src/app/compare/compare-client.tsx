@@ -159,7 +159,7 @@ function ProviderCard({
 
           <div className="px-6 pb-5 flex flex-col sm:flex-row gap-3">
             <Link
-              href="/contact"
+              href="/#quote-form"
               className="bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold py-2.5 px-6 rounded-xl transition-all duration-300 text-center text-sm shadow-lg shadow-teal-500/20 hover:-translate-y-0.5"
             >
               Get a Quote for {provider.name}
@@ -491,7 +491,7 @@ export function ComparePageClient() {
                         className="px-2 py-4 text-center border-r border-slate-200 last:border-r-0"
                       >
                         <Link
-                          href="/contact"
+                          href="/#quote-form"
                           className="inline-block bg-gradient-to-r from-sky-600 to-teal-500 hover:from-sky-700 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-xs shadow-md hover:shadow-lg"
                         >
                           Get Quote
