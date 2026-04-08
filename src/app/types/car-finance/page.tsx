@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Shield, CheckCircle2, Zap, Lock, ArrowRight, Home, Users, Briefcase, Car } from 'lucide-react';
+import CTABanner from '@/components/CTABanner';
 import QuoteForm from '@/components/QuoteForm';
 
 export default function CarFinancePage() {
@@ -50,7 +51,7 @@ export default function CarFinancePage() {
             {/* Left Column */}
             <div className="lg:col-span-3">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                Car Finance Insurance New Zealand
+                Car Finance Insurance
               </h1>
 
               <p className="text-lg sm:text-xl text-slate-100 mb-6">
@@ -63,26 +64,26 @@ export default function CarFinancePage() {
 
               {/* Trust Indicators */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-12">
-                <div className="flex items-start gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
+                <div className="flex items-start gap-3 bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
                   <Shield className="w-4 h-4 sm:w-5 sm:h-5 text-teal-300 flex-shrink-0 mt-1" />
-                  <span className="text-xs sm:text-sm text-slate-100 font-medium">ICNZ Registered & Regulated</span>
+                  <span className="text-xs sm:text-sm text-slate-100 font-medium">ICNZ Registered Broker Network</span>
                 </div>
-                <div className="flex items-start gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
+                <div className="flex items-start gap-3 bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
                   <Lock className="w-4 h-4 sm:w-5 sm:h-5 text-teal-300 flex-shrink-0 mt-1" />
                   <span className="text-xs sm:text-sm text-slate-100 font-medium">256-bit SSL Encrypted</span>
                 </div>
-                <div className="flex items-start gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
+                <div className="flex items-start gap-3 bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
                   <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-teal-300 flex-shrink-0 mt-1" />
                   <span className="text-xs sm:text-sm text-slate-100 font-medium">No Broker Fees Ever</span>
                 </div>
-                <div className="flex items-start gap-3 bg-white/10 rounded-lg p-4 backdrop-blur-sm">
+                <div className="flex items-start gap-3 bg-white/10 rounded-2xl p-4 backdrop-blur-sm">
                   <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-teal-300 flex-shrink-0 mt-1" />
                   <span className="text-xs sm:text-sm text-slate-100 font-medium">24 Hour Response Time</span>
                 </div>
               </div>
 
               {/* Why Choose Us */}
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 sm:p-8 mb-8">
+              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8 mb-8">
                 <h2 className="text-xl sm:text-2xl font-bold text-white mb-6">Why Choose Car Finance Insurance?</h2>
                 <ul className="space-y-4">
                   <li className="flex gap-3 text-white">
@@ -91,7 +92,7 @@ export default function CarFinancePage() {
                   </li>
                   <li className="flex gap-3 text-white">
                     <CheckCircle2 className="w-5 h-5 text-teal-300 flex-shrink-0 mt-0.5" />
-                    <span>Works seamlessly with dealerships - most car finance providers recognize and support our insurance</span>
+                    <span>Works seamlessly with dealerships - most car finance providers recognise and support our insurance</span>
                   </li>
                   <li className="flex gap-3 text-white">
                     <CheckCircle2 className="w-5 h-5 text-teal-300 flex-shrink-0 mt-0.5" />
@@ -120,8 +121,8 @@ export default function CarFinancePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Payment Protection */}
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 sm:p-8 border border-blue-200">
-              <div className="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-lg mb-4">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 sm:p-8 border border-blue-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-2xl mb-4">
                 <CheckCircle2 className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Payment Protection</h3>
@@ -131,8 +132,8 @@ export default function CarFinancePage() {
             </div>
 
             {/* Vehicle Retention */}
-            <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-6 sm:p-8 border border-teal-200">
-              <div className="flex items-center justify-center w-12 h-12 bg-teal-600 rounded-lg mb-4">
+            <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-6 sm:p-8 border border-teal-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-teal-600 rounded-2xl mb-4">
                 <Car className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Keep Your Vehicle</h3>
@@ -142,8 +143,8 @@ export default function CarFinancePage() {
             </div>
 
             {/* Death & Terminal Illness */}
-            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6 sm:p-8 border border-purple-200">
-              <div className="flex items-center justify-center w-12 h-12 bg-purple-600 rounded-lg mb-4">
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 sm:p-8 border border-purple-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-purple-600 rounded-2xl mb-4">
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Death Cover</h3>
@@ -153,13 +154,13 @@ export default function CarFinancePage() {
             </div>
 
             {/* Flexible Coverage */}
-            <div className="bg-gradient-to-br from-rose-50 to-rose-100 rounded-lg p-6 sm:p-8 border border-rose-200">
-              <div className="flex items-center justify-center w-12 h-12 bg-rose-600 rounded-lg mb-4">
+            <div className="bg-gradient-to-br from-rose-50 to-rose-100 rounded-2xl p-6 sm:p-8 border border-rose-200">
+              <div className="flex items-center justify-center w-12 h-12 bg-rose-600 rounded-2xl mb-4">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">Flexible Coverage</h3>
               <p className="text-slate-700 text-sm">
-                Choose individual covers (redundancy, illness, death) or combine them. Customize your protection based on your situation and finance term.
+                Choose individual covers (redundancy, illness, death) or combine them. Customise your protection based on your situation and finance term.
               </p>
             </div>
           </div>
@@ -179,7 +180,7 @@ export default function CarFinancePage() {
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Real-World Example:</h3>
 
-              <div className="bg-white rounded-lg p-6 border-l-4 border-teal-600">
+              <div className="bg-white rounded-2xl p-6 border-l-4 border-teal-600">
                 <p className="text-slate-700 mb-4">
                   <strong>You purchase a car for $45,000 with finance over 5 years.</strong>
                 </p>
@@ -198,7 +199,7 @@ export default function CarFinancePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-lg p-6 sm:p-8 border border-sky-200">
+            <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6 sm:p-8 border border-sky-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Benefits of GAP Insurance:</h3>
 
               <ul className="space-y-4">
@@ -244,10 +245,10 @@ export default function CarFinancePage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-12 text-center">What Happens If Your Car Is Written Off?</h2>
 
           <div className="space-y-6">
-            <div className="bg-gradient-to-r from-slate-50 to-white rounded-lg p-6 sm:p-8 border border-slate-200">
+            <div className="bg-gradient-to-r from-slate-50 to-white rounded-2xl p-6 sm:p-8 border border-slate-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-sky-600 text-white font-bold">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-sky-600 text-white font-bold">
                     1
                   </div>
                 </div>
@@ -260,10 +261,10 @@ export default function CarFinancePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-slate-50 to-white rounded-lg p-6 sm:p-8 border border-slate-200">
+            <div className="bg-gradient-to-r from-slate-50 to-white rounded-2xl p-6 sm:p-8 border border-slate-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-sky-600 text-white font-bold">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-sky-600 text-white font-bold">
                     2
                   </div>
                 </div>
@@ -276,10 +277,10 @@ export default function CarFinancePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-slate-50 to-white rounded-lg p-6 sm:p-8 border border-slate-200">
+            <div className="bg-gradient-to-r from-slate-50 to-white rounded-2xl p-6 sm:p-8 border border-slate-200">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-sky-600 text-white font-bold">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-sky-600 text-white font-bold">
                     3
                   </div>
                 </div>
@@ -292,10 +293,10 @@ export default function CarFinancePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-teal-50 to-teal-100 rounded-lg p-6 sm:p-8 border-2 border-teal-400">
+            <div className="bg-gradient-to-r from-teal-50 to-teal-100 rounded-2xl p-6 sm:p-8 border-2 border-teal-400">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-teal-600 text-white font-bold">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-teal-600 text-white font-bold">
                     4
                   </div>
                 </div>
@@ -320,21 +321,21 @@ export default function CarFinancePage() {
             <div className="space-y-6">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-teal-600">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-teal-600">
                     <CheckCircle2 className="h-6 w-6 text-white" />
                   </div>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">Direct Cooperation</h3>
                   <p className="text-slate-700">
-                    Most dealerships and finance companies recognize our insurance and actively support it. We work with your lender to ensure smooth claims processing.
+                    Most dealerships and finance companies recognise our insurance and actively support it. We work with your lender to ensure smooth claims processing.
                   </p>
                 </div>
               </div>
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-teal-600">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-teal-600">
                     <CheckCircle2 className="h-6 w-6 text-white" />
                   </div>
                 </div>
@@ -348,7 +349,7 @@ export default function CarFinancePage() {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-teal-600">
+                  <div className="flex items-center justify-center h-10 w-10 rounded-2xl bg-teal-600">
                     <CheckCircle2 className="h-6 w-6 text-white" />
                   </div>
                 </div>
@@ -361,7 +362,7 @@ export default function CarFinancePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 sm:p-8 border border-blue-200">
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 sm:p-8 border border-blue-200">
               <h3 className="text-2xl font-bold text-slate-900 mb-6">Dealership & Finance Company Support</h3>
 
               <p className="text-slate-700 mb-6">
@@ -369,7 +370,7 @@ export default function CarFinancePage() {
               </p>
 
               <div className="space-y-4">
-                <div className="bg-white rounded-lg p-4">
+                <div className="bg-white rounded-2xl p-4">
                   <p className="text-sm font-semibold text-slate-900 mb-1">Common Finance Companies We Work With:</p>
                   <ul className="text-sm text-slate-700 space-y-2">
                     <li>• ASB Finance</li>
@@ -397,9 +398,9 @@ export default function CarFinancePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
               href="/types/personal-loan"
-              className="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-blue-200"
+              className="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-blue-200"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-lg mb-4 group-hover:scale-110 transition-transform">
+              <div className="flex items-center justify-center w-12 h-12 bg-blue-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
                 <Briefcase className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Personal Loan Insurance</h3>
@@ -411,9 +412,9 @@ export default function CarFinancePage() {
 
             <Link
               href="/types/home-loan"
-              className="group bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-teal-200"
+              className="group bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-teal-200"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-teal-600 rounded-lg mb-4 group-hover:scale-110 transition-transform">
+              <div className="flex items-center justify-center w-12 h-12 bg-teal-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
                 <Home className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Home Loan Insurance</h3>
@@ -425,9 +426,9 @@ export default function CarFinancePage() {
 
             <Link
               href="/types/gap-insurance"
-              className="group bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-purple-200"
+              className="group bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-purple-200"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-purple-600 rounded-lg mb-4 group-hover:scale-110 transition-transform">
+              <div className="flex items-center justify-center w-12 h-12 bg-purple-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">GAP Insurance</h3>
@@ -439,9 +440,9 @@ export default function CarFinancePage() {
 
             <Link
               href="/types/redundancy-cover"
-              className="group bg-gradient-to-br from-rose-50 to-rose-100 rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-rose-200"
+              className="group bg-gradient-to-br from-rose-50 to-rose-100 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border border-rose-200"
             >
-              <div className="flex items-center justify-center w-12 h-12 bg-rose-600 rounded-lg mb-4 group-hover:scale-110 transition-transform">
+              <div className="flex items-center justify-center w-12 h-12 bg-rose-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
                 <Users className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Redundancy Cover</h3>
@@ -455,20 +456,10 @@ export default function CarFinancePage() {
       </section>
 
       {/* CTA Banner Section */}
-      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-sky-600 to-teal-500">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Protect Your Car Finance Today</h2>
-          <p className="text-lg sm:text-xl text-sky-100 mb-8">
-            Get comprehensive car finance and GAP insurance in one quote. No broker fees, quick approval, and coverage starts immediately.
-          </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 bg-white text-teal-600 font-bold px-8 py-3 rounded-lg hover:bg-slate-50 transition-all duration-200 shadow-lg hover:shadow-xl"
-          >
-            Get Your Free Quote <ArrowRight className="w-5 h-5" />
-          </Link>
-        </div>
-      </section>
+      <CTABanner
+        title="Protect Your Car Finance Today"
+        description="Get comprehensive car finance and GAP insurance in one quote. No broker fees, quick approval, and coverage starts immediately."
+      />
     </>
   );
 }

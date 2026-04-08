@@ -40,7 +40,7 @@ export default function PrivacyPage() {
 
           <h3>Quote Information</h3>
           <p>
-            When you request a loan insurance quote, we collect information about your loan type, loan amount, employment status, and financial situation necessary to provide personalized quotes.
+            When you request a loan insurance quote, we collect information about your loan type, loan amount, employment status, and financial situation necessary to provide personalised quotes.
           </p>
 
           <h3>Derivative Data</h3>
@@ -50,12 +50,12 @@ export default function PrivacyPage() {
 
           <h2>3. Use of Your Information</h2>
           <p>
-            Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:
+            Having accurate information about you permits us to provide you with a smooth, efficient, and customised experience. Specifically, we may use information collected about you via the Site to:
           </p>
           <ul>
-            <li>Generate a personal profile about you so that future visits to the Site will be personalized as possible</li>
+            <li>Generate a personal profile about you so that future visits to the Site will be personalised as possible</li>
             <li>Increase the efficiency and operation of the Site</li>
-            <li>Monitor and analyze usage and trends to improve your experience with the Site</li>
+            <li>Monitor and analyse usage and trends to improve your experience with the Site</li>
             <li>Notify you of updates to the Site</li>
             <li>Offer new products, services, and/or recommendations to you</li>
             <li>Fulfill and manage insurance quotes and related requests</li>
