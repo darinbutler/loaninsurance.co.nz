@@ -29,7 +29,7 @@ export default function CarFinancePage() {
       <section
         className="relative lg:min-h-[100vh] pt-28 pb-12 sm:pt-28 sm:pb-16 lg:py-28 overflow-hidden"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1549317661-bd32c8ce0afa?w=1920&h=1080&fit=crop)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1920&h=1080&fit=crop)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

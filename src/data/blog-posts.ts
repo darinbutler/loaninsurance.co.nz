@@ -53,7 +53,7 @@ Choosing loan protection insurance requires honestly assessing your financial si
 At LoanInsurance.co.nz, we help New Zealand borrowers find the right coverage at competitive rates. Getting a free quote takes just minutes and gives you clarity on exactly what protection is available and affordable for your situation.`,
     author: 'Sarah Mitchell',
     date: '2026-01-15',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80',
     category: 'Guides',
     readTime: 8,
   },
@@ -61,10 +61,10 @@ At LoanInsurance.co.nz, we help New Zealand borrowers find the right coverage at
     slug: 'personal-loan-insurance-worth-cost',
     title: 'Personal Loan Insurance: Is It Worth the Cost?',
     excerpt:
-      'Analyzing whether personal loan protection insurance offers real value and when it makes financial sense for New Zealand borrowers.',
+      'Analysing whether personal loan protection insurance offers real value and when it makes financial sense for borrowers.',
     content: `# Personal Loan Insurance: Is It Worth the Cost?
 
-For New Zealand borrowers considering a personal loan, one of the most common questions is whether to add loan protection insurance. The cost can feel like an extra expense, but is it actually worth protecting? Let's analyze this important financial decision.
+For New Zealand borrowers considering a personal loan, one of the most common questions is whether to add loan protection insurance. The cost can feel like an extra expense, but is it actually worth protecting? Let's analyse this important financial decision.
 
 ## The Cost of Personal Loan Insurance
 
@@ -96,10 +96,10 @@ If you have a substantial emergency fund covering at least 6-12 months of expens
 
 The decision to add personal loan insurance ultimately comes down to your risk tolerance and financial circumstances. Ask yourself: How would I cover my loan payment if I couldn't work tomorrow? If the answer is "I couldn't," then protection insurance is worth the cost. If you have substantial savings and job security, you have more flexibility.
 
-LoanInsurance.co.nz helps New Zealand borrowers understand this decision with personalized quotes and honest advice about whether protection insurance makes sense for your specific situation.`,
+LoanInsurance.co.nz helps New Zealand borrowers understand this decision with personalised quotes and honest advice about whether protection insurance makes sense for your specific situation.`,
     author: 'James Cooper',
     date: '2026-01-28',
-    image: 'https://images.unsplash.com/photo-1627873649417-af36141a4ada?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80',
     category: 'Analysis',
     readTime: 7,
   },
@@ -114,7 +114,7 @@ When you finance a vehicle in New Zealand, GAP insurance is one of the most valu
 
 ## What is GAP Insurance?
 
-GAP stands for Guaranteed Asset Protection. It's a specialized type of loan insurance designed specifically for vehicle finance. Here's the fundamental problem it solves: vehicles depreciate rapidly, especially new cars. If your financed vehicle is written off in an accident or stolen within the first few years of ownership, you could end up in a negative equity situation.
+GAP stands for Guaranteed Asset Protection. It's a specialised type of loan insurance designed specifically for vehicle finance. Here's the fundamental problem it solves: vehicles depreciate rapidly, especially new cars. If your financed vehicle is written off in an accident or stolen within the first few years of ownership, you could end up in a negative equity situation.
 
 Imagine you purchase a new $40,000 car with $40,000 in car finance. After one year and 15,000 kilometers, your car is worth approximately $32,000 in the used car market. If you're involved in a serious accident and your car is declared a total loss, your comprehensive car insurance will pay out the current market value - around $32,000. However, you still owe $36,000 on your loan. That $4,000 gap is your loss. GAP insurance covers this gap.
 
@@ -153,7 +153,7 @@ You can purchase GAP insurance from most lenders and finance companies, or indep
 Protect your vehicle investment with GAP insurance. Get a quote from LoanInsurance.co.nz today.`,
     author: 'Aroha Ngata',
     date: '2026-02-04',
-    image: 'https://images.unsplash.com/photo-1626512402529-0b5ba5b0c0f5?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80',
     category: 'Guides',
     readTime: 9,
   },
@@ -208,10 +208,10 @@ If you have a $400,000 mortgage and die, your family needs life insurance procee
 
 The best approach is to have life insurance covering your full mortgage amount plus living expenses for your family, combined with home loan insurance covering your monthly mortgage payment. This provides complete protection for both situations.
 
-At LoanInsurance.co.nz, we help New Zealand homeowners understand these distinctions and obtain the right combination of insurance protection. Get a personalized recommendation for your specific situation.`,
+At LoanInsurance.co.nz, we help New Zealand homeowners understand these distinctions and obtain the right combination of insurance protection. Get a personalised recommendation for your specific situation.`,
     author: 'Sarah Mitchell',
     date: '2026-02-15',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=800&q=80',
     category: 'Comparison',
     readTime: 8,
   },
@@ -277,7 +277,7 @@ At LoanInsurance.co.nz, we help New Zealand borrowers understand these risks and
 Don't take the risk of being unable to work without protection. Loan protection insurance ensures that life's unexpected events don't destroy your financial stability and creditworthiness.`,
     author: 'James Cooper',
     date: '2026-02-28',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80',
     category: 'Risk Management',
     readTime: 10,
   },
@@ -349,7 +349,7 @@ If you work in any industry where redundancy is possible - and honestly, that's 
 At LoanInsurance.co.nz, we help New Zealand employees understand redundancy risk and access affordable protection. Get a free quote to see how redundancy protection insurance can secure your financial stability in a changing employment landscape.`,
     author: 'Aroha Ngata',
     date: '2026-03-10',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80',
     category: 'Coverage',
     readTime: 9,
   },
@@ -436,7 +436,7 @@ Get a free consultation and quote from LoanInsurance.co.nz. Our team will help y
       'Calculating the real financial and personal costs of going unprotected when you have significant loan obligations.',
     content: `# The True Cost of Not Having Loan Protection
 
-Many New Zealand borrowers skip loan protection insurance to save the relatively small monthly premium. However, when you analyze the true financial and personal costs of not having protection, this false economy becomes clear. Let's do the math on what you're really risking.
+Many New Zealand borrowers skip loan protection insurance to save the relatively small monthly premium. However, when you analyse the true financial and personal costs of not having protection, this false economy becomes clear. Let's do the math on what you're really risking.
 
 ## The Scenario: Sudden Job Loss
 
@@ -541,12 +541,12 @@ The cost of that gamble when you lose is catastrophic. It's not just the immedia
 
 ## Making the Smart Choice
 
-Loan protection insurance costs approximately 0.5%-2% of your monthly loan payment. For Sarah, it was about 3-5% of her income protection value. This is exceptional value insurance when you analyze the true cost of going unprotected.
+Loan protection insurance costs approximately 0.5%-2% of your monthly loan payment. For Sarah, it was about 3-5% of her income protection value. This is exceptional value insurance when you analyse the true cost of going unprotected.
 
 Don't take this risk. Get a free quote from LoanInsurance.co.nz today. Understand what protection costs and what you're risking by going without it. For most New Zealand borrowers with significant loan obligations, loan protection insurance is one of the smartest financial decisions you can make.`,
     author: 'James Cooper',
     date: '2026-03-28',
-    image: 'https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80',
     category: 'Analysis',
     readTime: 12,
   },
@@ -581,7 +581,7 @@ The good news is that comprehensive loan protection insurance does exist for sel
 
 **Disability Coverage**: If you become permanently disabled and unable to work, some policies include disability benefits. Self-employed individuals should look for this specific coverage.
 
-**Mortgage Protection**: Mortgage insurance is available to self-employed individuals, sometimes with special underwriting. Lenders recognize that protecting mortgage payments protects their security.
+**Mortgage Protection**: Mortgage insurance is available to self-employed individuals, sometimes with special underwriting. Lenders recognise that protecting mortgage payments protects their security.
 
 ## Special Underwriting for Self-Employed
 
@@ -596,7 +596,7 @@ Based on this information, insurers assess your "normal" income level. The insur
 
 ## Accessing Self-Employed Loan Insurance
 
-Not all insurance companies offer comprehensive self-employed coverage. You need to work with brokers who specialize in self-employed insurance or who have relationships with insurers offering this coverage.
+Not all insurance companies offer comprehensive self-employed coverage. You need to work with brokers who specialise in self-employed insurance or who have relationships with insurers offering this coverage.
 
 Mainstream banks and finance companies typically offer limited self-employed coverage. Specialist insurance brokers have access to insurers who understand self-employed lending and can structure policies accordingly.
 
@@ -648,7 +648,7 @@ If you're self-employed and have significant loan obligations, don't assume you 
 Get a free quote today. We'll assess your specific self-employed situation and help you access loan protection insurance appropriate for your income variability and business risks. Don't leave your self-employed income unprotected - secure your loans and your livelihood.`,
     author: 'Aroha Ngata',
     date: '2026-04-05',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=800&q=80',
     category: 'Specialist',
     readTime: 11,
   },
