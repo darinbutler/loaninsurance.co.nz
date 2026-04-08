@@ -610,6 +610,30 @@ export default function CheapLoanInsurancePage() {
         </div>
       </section>
 
+      {/* Related Insurance Guides */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 text-center">
+            Related Insurance Guides
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: 'Payment Protection Insurance', href: '/insurance/payment-protection-insurance', desc: 'Protect your loan repayments if you can\'t work due to illness, injury, or job loss.' },
+              { title: 'Loan Repayment Insurance', href: '/insurance/loan-repayment-insurance', desc: 'Cover your regular loan repayments during unexpected life events.' },
+              { title: 'Car Loan Insurance', href: '/insurance/car-loan-insurance', desc: 'Protect your vehicle finance repayments with specialist car loan cover.' },
+              { title: 'Best Loan Insurance NZ', href: '/insurance/best-loan-insurance-nz', desc: 'Compare the top-rated loan insurance providers in New Zealand.' },
+              { title: 'Loan Insurance Cost', href: '/insurance/loan-insurance-cost', desc: 'Understand how much loan protection insurance costs in NZ.' },
+              { title: 'Compare Loan Insurance', href: '/insurance/loan-insurance-comparison', desc: 'Side-by-side comparison of NZ loan insurance policies.' },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="block bg-white rounded-xl p-6 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all duration-200">
+                <h3 className="font-bold text-slate-900 mb-2">{link.title}</h3>
+                <p className="text-sm text-slate-600">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Banner Section */}
       <CTABanner
         title="Find Your Affordable Loan Insurance Today"

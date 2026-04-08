@@ -482,6 +482,30 @@ export default function MortgageProtectionInsurancePage() {
         </div>
       </section>
 
+      {/* Related Insurance Guides */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 text-center">
+            Related Insurance Guides
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { title: 'Payment Protection Insurance', href: '/insurance/payment-protection-insurance', desc: 'Protect your loan repayments if you can\'t work due to illness, injury, or job loss.' },
+              { title: 'Income Protection Insurance', href: '/insurance/income-protection-insurance', desc: 'Replace your income during periods of illness or injury.' },
+              { title: 'Mortgage Repayment Cover', href: '/insurance/mortgage-repayment-cover', desc: 'Monthly mortgage payment protection for NZ homeowners.' },
+              { title: 'Best Loan Insurance NZ', href: '/insurance/best-loan-insurance-nz', desc: 'Compare the top-rated loan insurance providers in New Zealand.' },
+              { title: 'Loan Insurance Cost', href: '/insurance/loan-insurance-cost', desc: 'Understand how much loan protection insurance costs in NZ.' },
+              { title: 'Cheap Loan Insurance NZ', href: '/insurance/cheap-loan-insurance-nz', desc: 'Find affordable loan insurance options in New Zealand.' },
+            ].map((link) => (
+              <Link key={link.href} href={link.href} className="block bg-white rounded-xl p-6 border border-slate-200 hover:border-teal-300 hover:shadow-md transition-all duration-200">
+                <h3 className="font-bold text-slate-900 mb-2">{link.title}</h3>
+                <p className="text-sm text-slate-600">{link.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Banner Section */}
       <CTABanner
         title="Protect Your Family&apos;s Home Today"

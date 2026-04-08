@@ -1,13 +1,24 @@
 import Link from 'next/link';
 import Logo from './Logo';
+import { Shield, Zap, HeadphonesIcon, Lock, ExternalLink } from 'lucide-react';
+
+const footerTrustBadges = [
+  { icon: Shield, label: 'ICNZ Registered Brokers' },
+  { icon: Zap, label: 'Instant Quotes' },
+  { icon: HeadphonesIcon, label: 'Expert Support' },
+  { icon: Lock, label: '100% Secure' },
+];
 
 const footerLinks = {
   company: {
     title: 'Company',
     links: [
-      { label: 'About', href: '#about' },
-      { label: 'Contact', href: '#contact' },
+      { label: 'About', href: '/about' },
+      { label: 'Contact', href: '/contact' },
       { label: 'FAQs', href: '/faqs' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'Coverage Guide', href: '/coverage' },
+      { label: 'Compare Providers', href: '/compare' },
     ],
   },
   types: {
@@ -20,12 +31,26 @@ const footerLinks = {
       { label: 'Redundancy Cover', href: '/types/redundancy-cover' },
     ],
   },
-  resources: {
-    title: 'Resources',
+  insurance: {
+    title: 'Loan Insurance',
     links: [
-      { label: 'Blog', href: '/blog' },
-      { label: 'Coverage Guide', href: '/coverage-guide' },
-      { label: 'Compare Providers', href: '/compare' },
+      { label: 'Payment Protection', href: '/insurance/payment-protection-insurance' },
+      { label: 'Mortgage Protection', href: '/insurance/mortgage-protection-insurance' },
+      { label: 'Income Protection', href: '/insurance/income-protection-insurance' },
+      { label: 'Loan Repayment Insurance', href: '/insurance/loan-repayment-insurance' },
+      { label: 'Redundancy Insurance', href: '/insurance/redundancy-insurance' },
+      { label: 'Car Loan Insurance', href: '/insurance/car-loan-insurance' },
+      { label: 'Debt Protection', href: '/insurance/debt-protection-insurance' },
+      { label: 'Mortgage Repayment Cover', href: '/insurance/mortgage-repayment-cover' },
+    ],
+  },
+  guides: {
+    title: 'Guides',
+    links: [
+      { label: 'Best Loan Insurance NZ', href: '/insurance/best-loan-insurance-nz' },
+      { label: 'Loan Insurance Cost', href: '/insurance/loan-insurance-cost' },
+      { label: 'Compare Loan Insurance', href: '/insurance/loan-insurance-comparison' },
+      { label: 'Cheap Loan Insurance', href: '/insurance/cheap-loan-insurance-nz' },
     ],
   },
   legal: {
@@ -33,6 +58,17 @@ const footerLinks = {
     links: [
       { label: 'Privacy Policy', href: '/privacy' },
       { label: 'Terms & Conditions', href: '/terms' },
+      { label: 'Disclaimer', href: '/disclaimer' },
+    ],
+  },
+  regulatory: {
+    title: 'NZ Regulatory Bodies',
+    links: [
+      { label: 'ICNZ', href: 'https://www.icnz.org.nz/', external: true },
+      { label: 'FMA', href: 'https://www.fma.govt.nz/', external: true },
+      { label: 'IFSO', href: 'https://www.ifso.nz/', external: true },
+      { label: 'RBNZ Insurance Regulation', href: 'https://www.rbnz.govt.nz/regulation-and-supervision/insurers', external: true },
+      { label: 'Citizens Advice Bureau', href: 'https://www.cab.org.nz/', external: true },
     ],
   },
 };
@@ -41,12 +77,31 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-900 text-slate-100 mt-16">
+    <footer className="bg-slate-900 text-slate-100">
+      {/* Trust Badge Bar */}
+      <div className="border-b border-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {footerTrustBadges.map((badge) => {
+              const Icon = badge.icon;
+              return (
+                <div key={badge.label} className="flex items-center justify-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-sky-600 to-teal-500 flex items-center justify-center flex-shrink-0">
+                    <Icon className="w-5 h-5 text-white" />
+                  </div>
+                  <span className="text-sm font-semibold text-white">{badge.label}</span>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
           {/* Logo and Contact Column */}
-          <div className="lg:col-span-1">
+          <div className="col-span-2 sm:col-span-3 lg:col-span-1">
             <Logo variant="white" />
             <div className="mt-4 space-y-3">
               <div>
@@ -104,11 +159,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Resources */}
+          {/* Loan Insurance SEO Pages */}
           <div>
-            <h3 className="text-white font-bold mb-4">{footerLinks.resources.title}</h3>
+            <h3 className="text-white font-bold mb-4">{footerLinks.insurance.title}</h3>
             <ul className="space-y-2">
-              {footerLinks.resources.links.map((link) => (
+              {footerLinks.insurance.links.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -121,9 +176,24 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Guides */}
           <div>
-            <h3 className="text-white font-bold mb-4">{footerLinks.legal.title}</h3>
+            <h3 className="text-white font-bold mb-4">{footerLinks.guides.title}</h3>
+            <ul className="space-y-2">
+              {footerLinks.guides.links.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-slate-400 hover:text-teal-300 transition-colors text-sm"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            {/* Legal */}
+            <h3 className="text-white font-bold mb-4 mt-8">{footerLinks.legal.title}</h3>
             <ul className="space-y-2">
               {footerLinks.legal.links.map((link) => (
                 <li key={link.href}>
@@ -136,7 +206,37 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+
+            {/* NZ Regulatory Bodies */}
+            <h3 className="text-white font-bold mb-4 mt-8">{footerLinks.regulatory.title}</h3>
+            <ul className="space-y-2">
+              {footerLinks.regulatory.links.map((link) => (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-400 hover:text-teal-300 transition-colors text-sm inline-flex items-center gap-1 group"
+                  >
+                    {link.label}
+                    <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
+        </div>
+      </div>
+
+      {/* How This Site Works */}
+      <div className="border-t border-slate-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <h4 className="text-sm font-bold text-slate-300 uppercase tracking-wide mb-3">
+            How This Site Works
+          </h4>
+          <p className="text-xs text-slate-500 leading-relaxed max-w-4xl">
+            LoanInsurance.co.nz is a free comparison and lead-generation service — we are not an insurer, broker, or financial adviser. When you request a quote, we connect you with ICNZ-registered insurance brokers and advisers from our network who can provide personalised quotes and advice tailored to your circumstances. All insurance products are issued by licensed insurers through our broker partners. Information on this website is general in nature and does not constitute financial advice. You should seek independent financial advice before making insurance decisions. We may receive a referral fee from our broker partners, but this does not affect the price you pay or the advice you receive.
+          </p>
         </div>
       </div>
 
@@ -145,11 +245,15 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
             <p className="text-slate-400 text-sm">
-              © {currentYear} LoanInsurance.co.nz. All rights reserved.
+              &copy; {currentYear} LoanInsurance.co.nz. All rights reserved.
             </p>
-            <p className="text-slate-400 text-sm">
-              Proudly ICNZ Registered Insurance Intermediary
-            </p>
+            <div className="flex items-center gap-4 text-slate-400 text-sm">
+              <span>Partnered with ICNZ Registered Insurance Brokers</span>
+              <span className="hidden sm:inline">|</span>
+              <Link href="/disclaimer" className="hover:text-teal-300 transition-colors">
+                Disclaimer
+              </Link>
+            </div>
           </div>
         </div>
       </div>
