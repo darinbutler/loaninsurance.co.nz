@@ -158,7 +158,7 @@ export default function HomePage() {
               <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6">
                 <Shield className="w-4 h-4 text-teal-400" />
                 <span className="text-sm text-white font-medium">
-                  Partnered with ICNZ Registered Brokers
+                  Partnered with Licensed Insurance Brokers
                 </span>
               </div>
 
@@ -177,7 +177,7 @@ export default function HomePage() {
               {/* Trust Badges */}
               <div className="flex flex-wrap gap-3 mb-10">
                 {[
-                  { icon: Shield, text: 'ICNZ Registered Brokers' },
+                  { icon: Shield, text: 'Licensed Insurance Brokers' },
                   { icon: CheckCircle2, text: 'No Broker Fees' },
                   { icon: Lock, text: '256-bit SSL Secure' },
                   { icon: Zap, text: '24hr Response' },

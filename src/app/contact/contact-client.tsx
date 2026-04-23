@@ -17,7 +17,7 @@ import {
 
 export function ContactPageClient() {
   const whyChooseUs = [
-    { icon: Shield, text: 'ICNZ Registered Broker Network' },
+    { icon: Shield, text: 'Licensed Broker Network' },
     { icon: CheckCircle2, text: 'No Hidden Broker Fees' },
     { icon: Lock, text: '256-bit SSL Secure' },
     { icon: Zap, text: '24-Hour Quote Response' },
